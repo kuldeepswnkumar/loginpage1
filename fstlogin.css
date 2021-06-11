@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: grid;
+    width: 60%;
+    height: 70vh;
+    margin: 90px auto;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr;
+
+}
+#box-itam1::before{
+    content: "";
+    background: url('schoolimg.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+
+}
+#box-itam1{
+    color: rgb(0, 225, 241);
+    position: relative;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    /* border: 1px solid black; */
+}
+.skull{
+    opacity: none;
+    z-index: 100;
+
+}
+#box-itam2{
+    color: rgb(16, 112, 255);
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    /* border: 1px solid black; */
+    padding: 0px 5%;
+}
+#box-itam2 h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Patua One', cursive;
+    font-size: 2.3rem;
+    padding: 5px;
+}
+.p{
+    font-family: 'Patua One', cursive;
+    font-size: 1rem;
+    padding: 3px;
+}
+#in1,#in2{
+    font-family: 'Patua One', cursive;
+    width: 100%;
+}
+input{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 12px 0px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn{
+    font-weight: bold;
+    width: 100% ;
+    padding: 8px 10px;
+    margin: 12px 0px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn:hover{
+ background-color: rgb(178, 255, 168);
+}
+.for{
+    margin: 5px;
+}
+.for a{
+    text-decoration: none; 
+}
+.for a:hover{
+    color: rgb(112, 1, 1);
+}
+
+
+
+
